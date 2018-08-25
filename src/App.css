@@ -1,0 +1,130 @@
+.board {
+  margin-top: 200px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 10px;
+  display: flex;
+  flex-flow: row;
+  align-content: center;
+}
+
+.row1 {
+  display: flex;
+  flex-flow: row;
+  align-content: center;
+  position: absolute;
+}
+
+#vertical-line1 {
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  height: 200px;
+  width: 200px;
+}
+
+#vertical-line2 {
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  height: 200px;
+  width: 200px;
+}
+
+#horizontal-line1 {
+  border-bottom: 2px solid black;
+  height: 200px;
+  width: 200px;
+}
+
+.row2 {
+  display: flex;
+  flex-flow: row;
+  align-content: center;
+}
+
+#horizontal-line2 {
+  position: absolute;
+  flex-direction: column;
+  border-bottom: 2px solid black;
+  height: 200px;
+  width: 200px;
+  top: 200px;
+  right: 202px;
+}
+
+#left-corner {
+  position: absolute;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  height: 200px;
+  width: 200px;
+  top: 200px;
+  right: 402px;
+}
+
+#right-corner {
+  position: absolute;
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+  height: 200px;
+  width: 200px;
+  top: 200px;
+  left: 402px;
+}
+
+.row3 {
+  display: flex;
+  flex-flow: row;
+  align-content: center;
+}
+
+#bottom-left-corner{
+  position: absolute;
+  border-right: 2px solid black;
+  height: 200px;
+  width: 200px;
+  top: 400px;
+  right: 402px;
+}
+
+#bottom-middle {
+  position: absolute;
+  flex-direction: column;
+  border-bottom: 2px;
+  height: 200px;
+  width: 200px;
+  top: 400px;
+  right: 202px;
+}
+
+#bottom-right-corner {
+  position: absolute;
+  border-left: 2px solid black;
+  height: 200px;
+  width: 200px;
+  top: 400px;
+  left: 402px;
+}
+
+#blank1 {
+  border: 1px;
+  width: 200px;
+  height: 198px;
+  top: 1px;
+  position: absolute;
+}
+
+.o-piece {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 200px;
+  font-weight: bold;
+}
+
+.x-piece {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 200px;
+  font-weight: bold;
+}
