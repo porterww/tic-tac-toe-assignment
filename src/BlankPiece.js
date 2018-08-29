@@ -1,10 +1,9 @@
-import React, { Component } from 'react'
-import Board from './Board';
+import React, { Component } from "react"
 class BlankPiece extends Component {
   render() {
     return (
-      <section className="blank-pieces">
-        <div id="blank1"></div>
+      <section>
+        <div id="blank"/>
       </section>
     )
   }
