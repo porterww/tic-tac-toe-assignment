@@ -15,21 +15,21 @@
   position: absolute;
 }
 
-#vertical-line1 {
+#top-left-corner {
   border-right: 2px solid black;
   border-bottom: 2px solid black;
   height: 200px;
   width: 200px;
 }
 
-#vertical-line2 {
+#top-middle {
   border-bottom: 2px solid black;
   border-right: 2px solid black;
   height: 200px;
   width: 200px;
 }
 
-#horizontal-line1 {
+#top-right-corner {
   border-bottom: 2px solid black;
   height: 200px;
   width: 200px;
@@ -41,7 +41,7 @@
   align-content: center;
 }
 
-#horizontal-line2 {
+#middle {
   position: absolute;
   flex-direction: column;
   border-bottom: 2px solid black;

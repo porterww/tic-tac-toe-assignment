@@ -9,17 +9,17 @@ class Board extends Component {
     return (
       <section className="board">
         <div className="row1">
-          <div id="vertical-line1">
+          <div id="top-left-corner">
             <OPiece/>
           </div>
-          <div id="vertical-line2">
+          <div id="top-middle">
             <BlankPiece/>
           </div>
-          <div id="horizontal-line1">
+          <div id="top-right-corner">
             <XPiece/>
           </div>
         <div className="row2">
-          <div id="horizontal-line2">
+          <div id="middle">
             <OPiece/>
           </div>
           <div id="left-corner">
